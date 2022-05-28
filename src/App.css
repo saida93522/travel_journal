@@ -8,6 +8,7 @@ body {
   background: #eee;
   font-family: Inter;
   font-size: 0.64rem;
+  overflow-x: hidden;
 }
 
 nav {
@@ -25,4 +26,69 @@ nav {
 nav .nav-title {
   font-size: 14.46px;
   padding-left: 0.5rem;
+}
+
+main {
+  min-height: 100vh;
+  margin-top: 90px;
+}
+
+/* Card style */
+
+.container {
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  display: flex;
+  align-items: center;
+  width: max(90%, 1200);
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+h2,
+p,
+a {
+  padding: 2px 5px;
+}
+
+.description {
+  max-width: 80%;
+}
+
+a {
+  color: #918e9b;
+}
+
+.card-date,
+h2 {
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+.card-loc {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.3rem;
+}
+
+.card-loc p {
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+
+.card-img {
+  width: 8.438rem;
+  height: 11.25rem;
+  object-fit: cover;
+  border-radius: 7px;
+  margin-right: 15px;
+}
+
+.marker-icon {
+  height: 0.5rem;
+  margin-right: 2px;
 }

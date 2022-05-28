@@ -1,10 +1,10 @@
 import React from "react";
-
+import nav_logo from "../nav_logo.svg";
 const Nav = () => {
   return (
     <nav>
-      <img src="nav_logo.svg" alt="red marker" />
-      <span class="nav-title">my travel journal.</span>
+      <img src={nav_logo} alt="red marker" />
+      <span className="nav-title">my travel journal.</span>
     </nav>
   );
 };
